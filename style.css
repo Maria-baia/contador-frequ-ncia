@@ -24,4 +24,7 @@ button{
     .botoes{
         flex-direction: row;
     }
+    button{
+        margin: 5px;
+    }
 }
