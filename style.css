@@ -1,0 +1,27 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #2a9d8f;
+    color: #e9c46a;
+}
+textarea{
+    width: 100%;
+    background-color: #fae1dd;
+    color: #e9c46a;
+}
+.botoes{
+    display: flex;
+    flex-direction: column;
+}
+button{
+    background-color: #fae1dd;
+    color: #e9c46a;
+    border: 1px solid #e8e8e4;
+    margin: 5px 0;
+}
+@media(min-width: 768px){
+    .botoes{
+        flex-direction: row;
+    }
+}

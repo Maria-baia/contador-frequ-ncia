@@ -40,3 +40,8 @@ button.addEventListener("click", function() {
         words.appendChild(span); 
     }
 });
+const clearBox = document.getElementById("clearBox");
+clearBox.addEventListener("click", function() {
+    document.getElementById("lettersDiv").innerHTML = ""
+    document.getElementById("wordsDiv").innerHTML = ""
+})
